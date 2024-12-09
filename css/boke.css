@@ -4,11 +4,11 @@
 }
 @font-face {
   font-family: own;
-  src: url(/Danay-J/boke.github.io/edit/main/font/奶油泡泡.ttf);
+  src: url(../font/奶油泡泡.ttf);
 }
 @font-face {
   font-family: owny;
-  src: url(/Danay-J/boke.github.io/edit/main/font/084-小濑.TTF);
+  src: url(../font/084-小濑.TTF);
 }
 body {
   height: 1300px;
@@ -40,7 +40,7 @@ body {
   row-gap: 10px;
 }
 h1 {
-  font-size: 70px;
+  font-size: 60px;
   font-family: own;
   margin-left: 100px;
 }
@@ -74,7 +74,7 @@ ul {
   font-size: 50px;
   font-family: own;
   display: flex;
-  gap: 150px;
+  gap: 110px;
 }
 
 img {
@@ -156,45 +156,31 @@ img {
 .inner9 {
   transform: rotateY(320deg) translateZ(250px);
 }
-.box4:hover {
-  .inner9 {
-    z-index: 1;
-    transform: rotateY(0deg) translateZ(250px);
-  }
-  .inner1 {
-    z-index: 1;
-    transform: rotateY(40deg) translateZ(250px);
-  }
-  .inner2 {
-    transform: rotateY(80deg) translateZ(250px);
-  }
-  .inner3 {
-    transform: rotateY(120deg) translateZ(250px);
-  }
-  .inner4 {
-    transform: rotateY(160deg) translateZ(250px);
-  }
-  .inner5 {
-    transform: rotateY(200deg) translateZ(250px);
-  }
-  .inner6 {
-    transform: rotateY(240deg) translateZ(250px);
-  }
-  .inner7 {
-    transform: rotateY(280deg) translateZ(250px);
-  }
-  .inner8 {
-    transform: rotateY(320deg) translateZ(250px);
-  }
-}
 h5 {
   margin-left: 300px;
   font-size: 2.5rem;
 }
 .rrr2 {
-  height: 200px;
+  height: 230px;
   width: 280px;
   background-color: rgb(169, 188, 136);
   text-align: center;
   background-image: url(../photo/back6.jpg);
+}
+.left {
+  display: grid;
+  row-gap: 10px;
+}
+.right {
+  display: grid;
+  row-gap: 10px;
+}
+ol {
+  font-size: 30px;
+  text-align: left;
+  list-style: none;
+  display: grid;
+  row-gap: 10px;
+  column-gap: 10px;
+  font-family: own;
 }
