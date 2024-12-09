@@ -4,11 +4,11 @@
 }
 @font-face {
   font-family: own;
-  src: url(./9-文本/font/鹅卵石.ttf);
+  src: url(../font/奶油泡泡.ttf);
 }
 @font-face {
   font-family: owny;
-  src: url(./9-文本/font/胖头鱼体\(1\).ttf);
+  src: url(../font/084-小濑.TTF);
 }
 body {
   height: 1300px;
